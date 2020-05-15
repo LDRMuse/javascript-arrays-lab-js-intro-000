@@ -1,8 +1,10 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
-kittens.destructivelyAppendKitten("Ralph")
-console.log(kittens)
+function destructivelyAppendKitten("Ralph") {
+  window.kittens = ['Milo', 'Otis', 'Garfield']
+}
+
 
 
 /*describe('destructivelyAppendKitten(name)', function() {
