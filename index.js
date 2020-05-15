@@ -1,7 +1,7 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
-kittens.appendKitten("Ralph")
+kittens.destructivelyAppendKitten("Ralph")
 console.log(kittens)
 
 
