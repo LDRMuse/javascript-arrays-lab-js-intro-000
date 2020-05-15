@@ -6,6 +6,11 @@ function destructivelyAppendKitten(name) {
  return kittens
 }
 
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name)
+  return kittens
+}
+
 
 /*describe('destructivelyAppendKitten(name)', function() {
   it('appends a kitten to the end of the kittens array', function() {
