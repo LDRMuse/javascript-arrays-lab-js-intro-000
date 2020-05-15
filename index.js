@@ -32,5 +32,5 @@ function removeLastKitten(name) {
 }
 
 function removeFirstKitten(name) {
-  return kittens.concat(2, kiteens.length - 1)
+  return kittens.concat(1)
 }
